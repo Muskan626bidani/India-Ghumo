@@ -37,7 +37,7 @@ class NavbarMain extends React.Component {
           className="navDark"
         >
           <Container className="Nav-bar">
-            <NavbarBrand href="#">Manila Tourism</NavbarBrand>
+            <NavbarBrand href="#">India Ghumo</NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>

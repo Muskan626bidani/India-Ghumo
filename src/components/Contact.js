@@ -25,13 +25,13 @@ class Contact extends Component {
               <Col lg="4" md="4">
                 <div className="svg-card-3">
                   <MapPin width="55" height="55" strokeWidth="1" />
-                  <p>Manila City, Philippines</p>
+                  <p>New Delhi</p>
                 </div>
               </Col>
               <Col lg="4" md="4">
                 <div className="svg-card-3">
                   <Mail width="55" height="55" strokeWidth="1" />
-                  <p>manilatourism@manila.ph</p>
+                  <p>services@indiaghumo.com</p>
                 </div>
               </Col>
             </Row>

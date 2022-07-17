@@ -13,7 +13,7 @@ const Tour = () => (
       <section className="tour-cover item-center">
         <img src={imgCard1} alt="" />
         <h1>Seaside Resort</h1>
-        <h4>Batangas Resort</h4>
+        <h4>Taj Exotica Resort</h4>
       </section>
       <section className="tour-info">
         <Row>

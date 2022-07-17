@@ -19,79 +19,79 @@ const tours = [
     img: imgCard1,
     alt: "blah blah",
     title: "Seaside Resort",
-    subtitle: "Batangas Resort"
+    subtitle: "Taj Exotica Resort"
   },
   {
     id: 2,
     category: ["beach", "mountain"],
     img: imgCard2,
     alt: "blah blah",
-    title: "Isla de Gigantes",
-    subtitle: "Carles, Iloilo"
+    title: "Varkala",
+    subtitle: "Kerla"
   },
   {
     id: 3,
     category: ["resort", "honeymoon"],
     img: imgCard3,
     alt: "blah blah",
-    title: "The Farm",
-    subtitle: "San Benito, Batangas"
+    title: "Hotel Grand Mercure",
+    subtitle: "Mysore"
   },
   {
     id: 4,
     category: ["climbing", "mountain"],
     img: imgCard4,
     alt: "blah blah",
-    title: "Poog",
-    subtitle: "Cebu"
+    title: "Miyar valley",
+    subtitle: "Himachal Pradesh"
   },
   {
     id: 5,
     category: ["resort", "honeymoon", "beach"],
     img: imgCard5,
     alt: "blah blah",
-    title: "Koro Sun Resort & Rainforest Spa",
-    subtitle: "Vanua Levu, Fiji"
+    title: "Trident Hotel, Cochin",
+    subtitle: "Cochin"
   },
   {
     id: 6,
     category: ["climbing", "mountain"],
     img: imgCard6,
     alt: "blah blah",
-    title: "Pi Shan",
-    subtitle: "Yangshuo China"
+    title: "Shey Rock",
+    subtitle: "Jammu & Kashmir"
   },
   {
     id: 7,
-    category: ["beach", "climbing"],
+    category: ["monuments"],
     img: imgCard7,
     alt: "blah blah",
-    title: "El-Nido",
-    subtitle: "Palawan"
+    title: "Taj Mahal",
+    subtitle: "Agra"
   },
   {
     id: 8,
     category: ["honeymoon", "beach", "resort"],
     img: imgCard8,
     alt: "blah blah",
-    title: "Shangri-La’s Boracay Resort and Spa",
-    subtitle: "Boracay Resort"
+    title: "Ocean Spray Beach Resort",
+    subtitle: "Goa"
   },
   {
     id: 9,
-    category: ["beach", "resort"],
+    category: ["snowValley"],
     img: imgCard9,
     alt: "blah blah",
-    title: "HUMANA Island Resort & Spa",
-    subtitle: "Palawan"
+    title: "Thangu Valley",
+    subtitle: "Sikkim"
   },
   {
     id: 10,
     category: ["camping", "beach"],
     img: imgBarobaybay,
     alt: "camping in the lake",
-    title: "Barobaybay Camp Site",
-    subtitle: "Barobaybay, Lavezares N. Samar"
+    title: "Camp Brook",
+    subtitle: "Rishikesh"
   }
 ];
 
@@ -102,7 +102,9 @@ const itemCategories = [
   "resort",
   "climbing",
   "camping",
-  "honeymoon"
+  "honeymoon",
+  "monumments",
+  "snowValley"
 ];
 
 class Package extends Component {
